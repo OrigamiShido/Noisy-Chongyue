@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <random>
 #include <string>
+#include <cstdlib>
 
 using namespace std;
 
@@ -15,6 +16,7 @@ int random(int min,int max);
 int main(void)
 {
 	process();
+	system("pause");
 	return 0;
 }
 
